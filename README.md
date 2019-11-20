@@ -22,6 +22,11 @@ class.
   <li><a href="https://www.hackerrank.com/">Hackerrank<a></li>
 </ol>
 
+<h3>Tools</h3>
+<ol>
+  <li><a href="https://jsfiddle.net/">JS Fiddle<a></li>
+</ol>
+
 <h3>Videos</h3>
 <ol>
   <li><a href="https://www.youtube.com/watch?v=L5l9lSnNMxg">XSS Attack<a></li>
