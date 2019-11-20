@@ -25,6 +25,8 @@ class.
 <h3>Tools</h3>
 <ol>
   <li><a href="https://jsfiddle.net/">JS Fiddle<a></li>
+  <li><a href="https://www.jetbrains.com/pycharm/">Pycharm<a></li>
+  <li><a href="https://atom.io/">Atom<a></li>
 </ol>
 
 <h3>Videos</h3>
