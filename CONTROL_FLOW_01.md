@@ -8,10 +8,6 @@ Booleans are a javascript data type that can have a value of either <i>true</i> 
   var y = false;
 </code>
 
-<code>
-  typeof(x) == "boolean"
-</code>
-
 
 <h2>Logical Expressions and Conditionals</h2>
 
