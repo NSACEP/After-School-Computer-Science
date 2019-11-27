@@ -1,7 +1,7 @@
 # Control Flow Part 1
 
 <h2> Booleans </h2>
-Booleans are a javascript data type that can have a value of either <script\>true</script\> or <code>false</code>.
+Booleans are a javascript data type that can have a value of either <script\>var x = true;</script\> or <code>false</code>.
 
 
 
