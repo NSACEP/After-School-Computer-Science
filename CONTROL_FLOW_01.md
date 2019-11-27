@@ -1,8 +1,11 @@
 # Control Flow Part 1
 
 <h2> Booleans </h2>
+Booleans are a javascript data type that can have a value of either <script\>true</script\> or <code>false</code>.
 
-<h2>Logical Expressions amd Conditionals</h2>
+
+
+<h2>Logical Expressions and Conditionals</h2>
 
 <h2> If - Else if - Else Statements </h2>
 
