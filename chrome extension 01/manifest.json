@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Alert",
+  "version": "1",
+
+  "description": "Simple malware used to delete the background of every website.",
+  "content_scripts": [ {
+	"matches": ["<all_urls>"],
+	"js": ["script.js"]
+  }],
+  "permissions": ["tabs"]
+
+}
