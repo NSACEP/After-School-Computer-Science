@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>USA Bank Login</title>
+  <script src="bruteForce.js"></script>
+</head>
+<body>
+  <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iC7ph4vJCGlc/v1/1000x-1.jpg"></img>
+  <div class="title-container container">
+    <h1>USA BANK</h1>
+  </div>
+  <div class="form-container container">
+
+    <div class="form-subunit">
+      <div class="form-su-item form-label">USERNAME</div>
+      <div class="form-su-item form-field">
+        <input id="usr" type="text" placeholder="USERNAME">
+      </div>
+    </div>
+    <div class="form-subunit">
+      <div class="form-su-item form-label">PASSWORD</div>
+      <div class="form-su-item form-field">
+        <input id="pass" type="password">
+      </div>
+    </div>
+    <div class="form-subunit">
+      <div class="form-field">
+        <div class="submit-button"><span>SUBMIT</span></div>
+      </div>
+    </div>
+    <div class="form-subunit">
+      <div id="err" class="form-field">
+        <h4>Incorrect password, please try again.</h4>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+
+  function verifyPassword(){
+    // all lowercase leters and numbers, 5 characters in length
+    var password = "acep7"
+    return document.querySelector("#pass").value === password ? true : false;
+  }
+
+  function errorMessage(){
+    document.querySelector("#err").style.visibility = "visible";
+    setTimeout(function(){
+      document.querySelector("#err").style.visibility = "hidden";
+    },3000)
+  }
+
+  // handle login
+  document.querySelector(".submit-button").onclick = function(){
+    if (verifyPassword()){
+      window.open("data.html?UID="+document.querySelector("#usr").value);
+    } else{
+      errorMessage();
+    }
+  };
+</script>
+</html>

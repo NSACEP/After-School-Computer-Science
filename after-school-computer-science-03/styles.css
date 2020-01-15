@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  background: #e3f2fd;
+  background-image: image("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjonKKe2_PmAhUGXSsKHRymDL0QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.bloomberg.com%2Fopinion%2Farticles%2F2019-12-03%2Fstocks-wilt-before-trump-s-crazy-like-a-fox-trade-gambit&psig=AOvVaw34SCwIxVKH6Ye4gvRiKNcO&ust=1578562902996713");
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.container{
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+.title-container{
+  width: 100vw;
+  height: 20vh;
+}
+.title-container > h1{
+  text-align: center;
+  color: #1976d2;
+
+}
+.form-container{
+  width: 60vw;
+  height: 60vh;
+  margin-left: 20vw;
+  background: #d7ccc8;
+  border-radius: 5px;
+}
+
+.form-subunit{
+  margin: 10px;
+  display: block;
+  width: 100%;
+  height: 20%;
+}
+.form-su-item{
+  display: inline-block;
+  float: left;
+}
+.form-label{
+  margin-right: 10px;
+  font-family: monospace;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #1976d2;
+
+}
+.form-field{
+
+}
+.form-field > input{
+
+}
+.submit-button{
+  width: 20%;
+  height: 30px;
+  border: 1px solid #1565c0;
+  background: #2196f3;
+  text-align: center;
+  line-height: 30px;
+  font-family: monospace;
+  border-radius: 5px;
+  margin-left: 40%;
+}
+.submit-button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.submit-button > span{
+
+}
+#err{
+  color:#ff3d00;
+  visibility: hidden;
+}
